@@ -1,13 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png); 
+  font-family: 'Bellota Text', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  border-radius: 5px;
+  border: 1px solid rgb(182, 178, 178);
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  width: 15%;
+  height: 15%;
+  font-family: 'Bellota Text', cursive;
+  color: white;
+  background-color: rgba(122, 115, 115);
+}
+  
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: lightgray;
+}
+
+.on {
+  background-color: rgb(192, 71, 71);
+}
+  
+.box:hover { 
+  background: rgb(179, 111, 106);
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+  
+h1, h2, h3, h4 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
 }
